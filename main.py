@@ -28,8 +28,11 @@ class Nation:
     else:
       raise StopIteration
 
+
 def main():
   if __name__ == '__main__':
     for item in Nation('countries.json', 'output.txt'):
       pass
+      
+      
 main()
